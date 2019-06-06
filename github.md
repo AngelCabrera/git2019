@@ -57,3 +57,13 @@ Podemos crear todas las ramas y commits que queramos. De hecho, podemos aprovech
 
 Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede generar conflictos. Algunos archivos pueden ser diferentes en ambas ramas. Git es muy inteligente y puede intentar unir estos cambios automáticamente, pero no siempre funciona. En algunos casos, somos nosotros los que debemos resolver estos conflictos “a mano”.
 
+### ¿Cuáles son los comandos básicos para crear repositorios y commits?
+
+- **git init**: inicializa un repositorio de GIT en la carpeta donde se ejecute el comando.
+- **git add**: añade los archivos especificados al _staged area_.
+- **git commit -m "commit description"**: confirma los archivos que se encuentran en el área de preparación y los agrega al repositorio.
+- **git status**: ofrece una descripción del estado de los archivos (untracked, ready to commit, nothing to commit).
+- **git rm (. -r, filename) (--cached)**: remueve los archivos del index.
+- **git config --global user.email "tu@email.com"**: configura tu email.
+- **git config --global user.name "Tu Nombre"**: configura tu nombre.
+- **git config --list"**: lista las configuraciones (puedes ver el usuario y el correo del usuario).
