@@ -72,3 +72,8 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 
 - **git show _filename_**: permite ver la historia de los cambios en un archivo.
 - **git diff (commits)**: compara diferencias entre en cambios confirmados.
+
+### ¿Cómo volver en el tiempo con branches y checkout?
+
+- **git reset (commit) --soft/hard**: regresa al commit especificado, eliminando todos los cambios que se hicieron después de ese commit.
+- **git checkout (commit/branch) (filename)**: permite regresar al estado en el cual se realizó un commit o branch especificado.
