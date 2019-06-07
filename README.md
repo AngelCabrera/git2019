@@ -22,8 +22,6 @@ Github puede considerarse como la red social de código para los programadores y
 - El directorio de trabajo (**Working Directory**)
 - El área de preparación (**Staging Area**)
 
-![Secciones Github](https://git-scm.com/figures/18333fig0106-tn.png)
-
 ### ¿Qué es el Staging Area y Git Directory?
 
 Al ejecutar el comando _"git init"_ (comando para iniciar un repositorio git) ocurren dos cosas:
@@ -36,6 +34,8 @@ Al ejecutar el comando _"git init"_ (comando para iniciar un repositorio git) oc
 1. Modificas una serie de archivos en tu directorio de trabajo.
 2. Preparas los archivos, añadiendolos a tu área de preparación.
 3. Confirmas los cambios, lo que toma los archivos tal y como están en el área de preparación, y almacena esas instantáneas de manera permanente en tu directorio de Git.
+
+![Secciones Github](https://git-scm.com/figures/18333fig0106-tn.png)
 
 ### Estados de un archivo
 
