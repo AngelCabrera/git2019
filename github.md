@@ -67,3 +67,8 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 - **git config --global user.email "tu@email.com"**: configura tu email.
 - **git config --global user.name "Tu Nombre"**: configura tu nombre.
 - **git config --list"**: lista las configuraciones (puedes ver el usuario y el correo del usuario).
+
+### ¿Cómo analizar cambios en los archivos de un proyecto Git?
+
+- **git show _filename_**: permite ver la historia de los cambios en un archivo.
+- **git diff (commits)**: compara diferencias entre en cambios confirmados.
