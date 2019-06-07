@@ -77,3 +77,9 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 
 - **git reset (commit) --soft/hard**: regresa al commit especificado, eliminando todos los cambios que se hicieron después de ese commit.
 - **git checkout (commit/branch) (filename)**: permite regresar al estado en el cual se realizó un commit o branch especificado.
+
+### ¿Cómo añadir los archivos a un repositorio remoto?
+
+- **git remote add origin (link)**: enlaza el repositorio local con el repositorio remoto.
+- **git push origin (branchName)**: exportar los archivos confirmados en el repositorio local al repositorio remoto.
+- **git pull origin (branchName)**: importa los archivos del repositorio remoto al repositorio local y al working directory.
