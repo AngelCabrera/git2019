@@ -62,7 +62,7 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 - **git init**: inicializa un repositorio de GIT en la carpeta donde se ejecute el comando.
 - **git add**: añade los archivos especificados al _staged area_.
 - **git commit -m "commit description"**: confirma los archivos que se encuentran en el área de preparación y los agrega al repositorio.
-- **git commit -a "commit description"**: añade al staging area y hace un commit mediante un solo comando. (No funciona con archivos nuevos)
+- **git commit -am "commit description"**: añade al staging area y hace un commit mediante un solo comando. (No funciona con archivos nuevos)
 - **git status**: ofrece una descripción del estado de los archivos (untracked, ready to commit, nothing to commit).
 - **git rm (. -r, filename) (--cached)**: remueve los archivos del index.
 - **git config --global user.email "tu@email.com"**: configura tu email.
@@ -94,5 +94,5 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 - Al crear una nueva rama se copia el último commit en esta nueva rama. Todos los cambios hechos en esta rama no se reflejarán en la rama master hasta que hagamos un **merge**.
 - **git branch _branchname_**: crea una nueva rama.
 - **git checkout _branchname_**: nos mueve a la rama especificada.
-- **git merge _branchname_**: fusiona la rama actual con la rama especificada.
+- **git merge _branchname_**: fusiona la rama actual con la rama especificada y crea un nuevo commit de esta fusión.
 - **git branch**: lista las ramas creadas.
