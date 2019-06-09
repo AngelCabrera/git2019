@@ -71,15 +71,17 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 ### ¿Cómo analizar cambios en los archivos de un proyecto Git?
 
 - **git show _filename_**: permite ver la historia de los cambios en un archivo.
-- **git diff (commits)**: compara diferencias entre en cambios confirmados.
+- **git diff (commit1) (commit2)**: compara diferencias entre en cambios confirmados.
 
 ### ¿Cómo volver en el tiempo con branches y checkout?
 
 - **git reset (commit) --soft/hard**: regresa al commit especificado, eliminando todos los cambios que se hicieron después de ese commit.
-- **git checkout (commit/branch) (filename)**: permite regresar al estado en el cual se realizó un commit o branch especificado.
+- **git checkout (commit/branch) (filename)**: permite regresar al estado en el cual se realizó un commit o branch especificado, pero no elimina lo que está en el staged area.
 
-### ¿Cómo añadir los archivos a un repositorio remoto?
+### ¿Cuáles son las bases para trabajar con un repositorio remoto?
 
 - **git remote add origin (link)**: enlaza el repositorio local con el repositorio remoto.
 - **git push origin (branchName)**: exportar los archivos confirmados en el repositorio local al repositorio remoto.
 - **git pull origin (branchName)**: importa los archivos del repositorio remoto al repositorio local y al working directory.
+- **git fetch**: importa los archivos remotos al repositorio local pero no al working directory.
+- **git merge**: una vez hecho el git fetch, hace falta hacer un git merge para que los archivos importados aparezcan en el working directory.
