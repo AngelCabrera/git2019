@@ -94,3 +94,5 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 - Al crear una nueva rama se copia el último commit en esta nueva rama. Todos los cambios hechos en esta rama no se reflejarán en la rama master hasta que hagamos un **merge**.
 - **git branch _branchname_**: crea una nueva rama.
 - **git checkout _branchname_**: nos mueve a la rama especificada.
+- **git merge _branchname_**: fusiona la rama actual con la rama especificada.
+- **git branch**: lista las ramas creadas.
