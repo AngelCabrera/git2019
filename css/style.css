@@ -1,6 +1,10 @@
 body {
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  color: darkgoldenrod;
-  text-decoration: underline;
+  color: black;
+  text-decoration: none;
+  margin: 0 100px;
+  font-size: 18px;
+}
+h1 {
+  text-align: center;
 }
