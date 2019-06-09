@@ -127,4 +127,6 @@ De esta manera podemos compartir información de manera segura.
 - **git tag nombre_del_tag -a "Mensaje para guardar el tag" commit_id**: permite agregar un tag en git para identificar lo que se desea.
 - **git show-ref --tags**: muestra el id que referencia a un tag.
 - **git tag**: muestra los tags que se han creado.
+- **git tag -d tagname**: elimina el tag especificado.
 - **git push origin --tags**: exporta los tags al repositorio en github.
+- **git push origin :refs/tags/nombre_del_tag_a_borrar**: permite hacer los cambios en los tags en github.
