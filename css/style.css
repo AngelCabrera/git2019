@@ -6,13 +6,31 @@ body {
   margin: 0;
   padding: 0;
 }
+#container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #ddd;
+}
+#container #cabecera {
+  background: #33a;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+  margin: 0;
+  padding: 0.5em;
+}
+
+#container #cabecera #tagline {
+  font-weight: normal;
+  font-size: 0.8em;
+  padding: 0 0 0 1em;
+}
+
 #container h1 {
   font-size: 24px;
 }
 
-#container {
-  width: 70%;
-  margin: auto;
+#container #post {
   padding: 1em;
-  border: 1px solid #ddd;
 }
