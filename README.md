@@ -77,6 +77,7 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 
 - **git log**: lista de manera descendente los commits realizados.
 - **git log --stat**: además de listar los commits, muestra la cantidad de bytes añadidos y eliminados en cada uno de los archivos modificados.
+- **git log --all --graph --decorate --oneline**: muestra de manera comprimida toda la historia del repositorio de manera gráfica y embellezida.
 - **git show _filename_**: permite ver la historia de los cambios en un archivo.
 - **git diff (commit1) (commit2)**: compara diferencias entre en cambios confirmados.
 
@@ -118,3 +119,12 @@ Las llaves públicas se conectan con las llaves privadas. Las llaves públicas s
 Las llaves públicas sirven para cifrar los mensajes privados. Las llaves privadas sirven para descifrar los mensajes cifrados con la llave pública.
 
 De esta manera podemos compartir información de manera segura.
+
+- **git remote set-url origin url-ssh-del-repositorio-en-github**: establece la url del repositorio remoto a través de ssh.
+
+### Tags y versiones en Git y Github
+
+- **git tag nombre_del_tag -a "Mensaje para guardar el tag" commit_id**: permite agregar un tag en git para identificar lo que se desea.
+- **git show-ref --tags**: muestra el id que referencia a un tag.
+- **git tag**: muestra los tags que se han creado.
+- **git push origin --tags**: exporta los tags al repositorio en github.
