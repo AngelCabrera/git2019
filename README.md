@@ -130,3 +130,7 @@ De esta manera podemos compartir información de manera segura.
 - **git tag -d tagname**: elimina el tag especificado.
 - **git push origin --tags**: exporta los tags al repositorio en github.
 - **git push origin :refs/tags/nombre_del_tag_a_borrar**: permite hacer los cambios en los tags en github.
+
+### Ramas en github
+
+- **git push origin _branchname_**: exporta la rama al repositorio remoto.
