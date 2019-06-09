@@ -62,6 +62,7 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 - **git init**: inicializa un repositorio de GIT en la carpeta donde se ejecute el comando.
 - **git add**: añade los archivos especificados al _staged area_.
 - **git commit -m "commit description"**: confirma los archivos que se encuentran en el área de preparación y los agrega al repositorio.
+- **git commit -am "commit description"**: añade al staging area y hace un commit mediante un solo comando. (No funciona con archivos nuevos)
 - **git status**: ofrece una descripción del estado de los archivos (untracked, ready to commit, nothing to commit).
 - **git rm (. -r, filename) (--cached)**: remueve los archivos del index.
 - **git config --global user.email "tu@email.com"**: configura tu email.
@@ -85,3 +86,7 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 - **git pull origin (branchName)**: importa los archivos del repositorio remoto al repositorio local y al working directory.
 - **git fetch**: importa los archivos remotos al repositorio local pero no al working directory.
 - **git merge**: una vez hecho el git fetch, hace falta hacer un git merge para que los archivos importados aparezcan en el working directory.
+
+### ¿Cómo trabajar con Ramas o Branches de Git?
+
+- Copia del ultimo commit en otro lado y todos los cambios hechos en esta rama, no se reflejarán en la rama master, hasta que hagamos un **merge**.

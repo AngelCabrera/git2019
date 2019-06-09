@@ -1,10 +1,18 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  color: #333;
   text-decoration: none;
-  margin: 0 100px;
   font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
-h1 {
-  text-align: center;
+#container h1 {
+  font-size: 24px;
+}
+
+#container {
+  width: 70%;
+  margin: auto;
+  padding: 1em;
+  border: 1px solid #ddd;
 }
