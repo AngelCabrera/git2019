@@ -1,5 +1,7 @@
 # Conceptos sobre Git y Github - Curso, Platzi, Freddy Vega, 2019
 
+## Introducción a git y github
+
 ### ¿Qué es un sistema de control de versiones?
 
 El control de versiones es un sistema que registra los cambios realizados sobre un archivo o conjunto de archivos a lo largo del tiempo, de modo que puedas recuperar versiones específicas más adelante. Cualquier tipo de archivo que encuentres en un ordenador puede ponerse bajo control de versiones.
@@ -15,6 +17,8 @@ Git es un sistema de control de versiones distribuido, fue diseñado por Linus T
 Es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de computadora.
 
 Github puede considerarse como la red social de código para los programadores y en muchos casos es visto como tu curriculum vitae.
+
+## Comandos y Conceptos Básicos de Git
 
 ### ¿Cuáles son las tres secciones principales de un proyecto de Git?
 
@@ -81,6 +85,8 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 - **git reset (commit) --soft/hard**: regresa al commit especificado, eliminando todos los cambios que se hicieron después de ese commit.
 - **git checkout (commit/branch) (filename)**: permite regresar al estado en el cual se realizó un commit o branch especificado, pero no elimina lo que está en el staged area.
 
+## Flujo de Trabajo Básico en Git
+
 ### ¿Cuáles son las bases para trabajar con un repositorio remoto?
 
 - **git remote add origin (link)**: enlaza el repositorio local con el repositorio remoto.
@@ -101,4 +107,4 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 
 Al trabajar en dos o más ramas sobre las mismas líneas de código, ocurrirían conflictos a la hora de hacer merge. Git automáticamente nos especificaría en nuestro código dónde se encuentran los conflictos.
 
-Para resolver este problema debemos especificar la rama de donde queremos obtener el cambio.
+Para resolver este problema debemos especificar la rama de donde queremos obtener el cambio, quedarnos con esas modificaciones y realizar un commit para completar el merge.
