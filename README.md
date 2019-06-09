@@ -96,3 +96,9 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 - **git checkout _branchname_**: nos mueve a la rama especificada.
 - **git merge _branchname_**: fusiona la rama actual con la rama especificada y crea un nuevo commit de esta fusión.
 - **git branch**: lista las ramas creadas.
+
+### ¿Cómo resolver conflictos en Git?
+
+Al trabajar en dos o más ramas sobre las mismas líneas de código, ocurrirían conflictos a la hora de hacer merge. Git automáticamente nos especificaría en nuestro código dónde se encuentran los conflictos.
+
+Para resolver este problema debemos especificar la rama de donde queremos obtener el cambio.
