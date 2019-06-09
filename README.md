@@ -91,4 +91,6 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 
 ### ¿Cómo trabajar con Ramas o Branches de Git?
 
-- Copia del ultimo commit en otro lado y todos los cambios hechos en esta rama, no se reflejarán en la rama master, hasta que hagamos un **merge**.
+- Al crear una nueva rama se copia el último commit en esta nueva rama. Todos los cambios hechos en esta rama no se reflejarán en la rama master hasta que hagamos un **merge**.
+- **git branch _branchname_**: crea una nueva rama.
+- **git checkout _branchname_**: nos mueve a la rama especificada.
