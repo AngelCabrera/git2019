@@ -62,7 +62,7 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 - **git init**: inicializa un repositorio de GIT en la carpeta donde se ejecute el comando.
 - **git add**: añade los archivos especificados al _staged area_.
 - **git commit -m "commit description"**: confirma los archivos que se encuentran en el área de preparación y los agrega al repositorio.
-- **git commit -am "commit description"**: añade al staging area y hace un commit mediante un solo comando. (No funciona con archivos nuevos)
+- **git commit -a "commit description"**: añade al staging area y hace un commit mediante un solo comando. (No funciona con archivos nuevos)
 - **git status**: ofrece una descripción del estado de los archivos (untracked, ready to commit, nothing to commit).
 - **git rm (. -r, filename) (--cached)**: remueve los archivos del index.
 - **git config --global user.email "tu@email.com"**: configura tu email.
@@ -71,6 +71,8 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 
 ### ¿Cómo analizar cambios en los archivos de un proyecto Git?
 
+- **git log**: lista de manera descendente los commits realizados.
+- **git log --stat**: además de listar los commits, muestra la cantidad de bytes añadidos y eliminados en cada uno de los archivos modificados.
 - **git show _filename_**: permite ver la historia de los cambios en un archivo.
 - **git diff (commit1) (commit2)**: compara diferencias entre en cambios confirmados.
 
