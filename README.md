@@ -108,3 +108,13 @@ Solo ten en cuenta que combinar estas ramas (sí, hacer “merge”) puede gener
 Al trabajar en dos o más ramas sobre las mismas líneas de código, ocurrirían conflictos a la hora de hacer merge. Git automáticamente nos especificaría en nuestro código dónde se encuentran los conflictos.
 
 Para resolver este problema debemos especificar la rama de donde queremos obtener el cambio, quedarnos con esas modificaciones y realizar un commit para completar el merge.
+
+## Trabajando con repositorios remotos en Github
+
+### Llaves públicas y privadas Github
+
+Las llaves públicas se conectan con las llaves privadas. Las llaves públicas se comparten sin problemas, las llaves privadas no se deben compartir.
+
+Las llaves públicas sirven para cifrar los mensajes privados. Las llaves privadas sirven para descifrar los mensajes cifrados con la llave pública.
+
+De esta manera podemos compartir información de manera segura.
