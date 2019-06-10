@@ -30,7 +30,7 @@ body {
 #container #cabecera #tagline {
   font-weight: normal;
   font-size: 0.8em;
-  padding: 0 0 0 1em;
+  padding: 0 0 0 0.5em;
 }
 
 #container h1 {

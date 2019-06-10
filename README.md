@@ -133,4 +133,5 @@ De esta manera podemos compartir información de manera segura.
 
 ### Ramas en github
 
-- **git push origin _branchname_**: exporta la rama al repositorio remoto.
+- **git push origin _branchname_**: exporta la rama o los cambios al repositorio remoto.
+- **git pull origin _branchname_**: importa la rama especificada al working directory y al repositorio local o los cambios ocurridos.
