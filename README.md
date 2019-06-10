@@ -135,3 +135,7 @@ De esta manera podemos compartir información de manera segura.
 
 - **git push origin _branchname_**: exporta la rama o los cambios al repositorio remoto.
 - **git pull origin _branchname_**: importa la rama especificada al working directory y al repositorio local o los cambios ocurridos.
+
+### Pull Requests en Github
+
+Pull Requests son herramientas de GitHub para solicitar modificaciones en el repositorio remoto, permiten que los colaboradores del proyecto revisen los cambios y dependiendo de su criterio, acepten estos cambios y lo fusionen con la rama master o los descarten, también pueden solicitar cambios a este pull request para luego aceptarlo.
