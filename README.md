@@ -163,3 +163,5 @@ Pull Requests son herramientas de GitHub para solicitar modificaciones en el rep
 ### Traer commits viejos al head de un branch
 
 - **git cherry-pick _commit-reference_**: trae solamente el commit especificado a la rama que se desee desde la rama que se quiera.
+
+Objetivos Logrados: Terminar la Unidad 7 del curso de Git y Github con freddy vega.
