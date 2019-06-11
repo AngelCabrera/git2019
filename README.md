@@ -139,3 +139,27 @@ De esta manera podemos compartir información de manera segura.
 ### Pull Requests en Github
 
 Pull Requests son herramientas de GitHub para solicitar modificaciones en el repositorio remoto, permiten que los colaboradores del proyecto revisen los cambios y dependiendo de su criterio, acepten estos cambios y lo fusionen con la rama master o los descarten, también pueden solicitar cambios a este pull request para luego aceptarlo.
+
+## Múltiples entornos de trabajo
+
+### Reorganizando el trabajo realizado
+
+- **git rebase _branchname_ (desde rama nueva a rama a unir)**: solo útil para los cambios locales, une dos ramas y modifica la historia.
+- **git rebase _branchname_ (sentido contrario)**: luego de hacer el primer rebase, hacemos este rebase.
+
+### Guarda cambios en memoria y recupéralos cuando necesites
+
+- **git stash**: agrega los cambios a un lugar temporal para permitirte cambiar de rama o lugar sin hacer commit.
+- **git stash list**: lista los cambios que se encuentran en stash.
+- **git stash pop**: trae los cambios de regreso.
+- **git stash branch _branchname_**: crea una rama y aplica el stash.
+
+### Limpiar tu proyecto de archivos no deseados (Archivos untracked)
+
+- **git clean -f**: borra archivos no deseados.
+- **git clean -df**: permite borrar archivos y carpetas.
+- **git clean --dry-run**: especifica lo que se va a borrar.
+
+### Traer commits viejos al head de un branch
+
+- **git cherry-pick _commit-reference_**: trae solamente el commit especificado a la rama que se desee desde la rama que se quiera.
