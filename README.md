@@ -160,9 +160,21 @@ Pull Requests son herramientas de GitHub para solicitar modificaciones en el rep
 - **git clean -df**: permite borrar archivos y carpetas.
 - **git clean --dry-run**: especifica lo que se va a borrar.
 
-### Traer commits viejos al head de un branch
+### Git Cherry-Prick: Traer commits viejos al head de un branch
 
 - **git cherry-pick _commit-reference_**: trae solamente el commit especificado a la rama que se desee desde la rama que se quiera.
 
-Objetivos Logrados: Terminar la Unidad 7 del curso de Git y Github con Freddy vega.
-Objetivos para mañana: Terminar el curso de Git y Github con Freddy Vega.
+### Git Ammend: Reconstruir commits en git
+
+**git commit --ammend**: fusiona el commit actual con el commit anterior y te permite escribir un nuevo mensaje.
+
+### Git Reset y Reflog: Úsese en caso de emergencia
+
+- **git reflog**: muestra todos los cambios del HEAD.
+- **git reset --hard _commit-id_**: regresa en el tiempo si han habido problemas en los commits recientes.
+
+### Buscar dentro de archivos y commits con Grep y log
+
+- **git grep -c -n _Palabra_**: muestra donde, cuantas veces o en que líneas se utiliza la palabra especificada.
+
+- **git log -S "\_Palabra"**: muestra las veces que se utilizó la palabra en los commits.
