@@ -124,7 +124,7 @@ De esta manera podemos compartir información de manera segura.
 
 ### Tags y versiones en Git y Github
 
-- **git tag nombre_del_tag -a "Mensaje para guardar el tag" commit_id**: permite agregar un tag en git para identificar lo que se desea.
+- **git tag -a nombre_del_tag -m "Mensaje para guardar el tag" commit_id**: permite agregar un tag en git para identificar lo que se desea.
 - **git show-ref --tags**: muestra el id que referencia a un tag.
 - **git tag**: muestra los tags que se han creado.
 - **git tag -d tagname**: elimina el tag especificado.
