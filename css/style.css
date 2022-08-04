@@ -22,10 +22,7 @@ body {
   font-size: 1.1em;
 }
 
-#cabecera #logo {
-  width: 40px;
-  vertical-align: middle;
-}
+
 
 #container #cabecera #tagline {
   font-weight: normal;
